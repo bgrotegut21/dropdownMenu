@@ -1,5 +1,5 @@
 #H1 What is this?
-this is a package that allows you to add a dropdown menu on any object that
+This is a package that allows you to add a dropdown menu on any object.
 
 #installation
 
@@ -7,8 +7,7 @@ this is a package that allows you to add a dropdown menu on any object that
 
 # Usage
 
-In order to trigger the animation you must import it and add it an
-eventlistener to it with the dropdown.triggerButton, here is an example
+In order to add a dropdown to a button you must import it than add triggerButton on to the event listener.
 
 ```js
 import {DropDown} from  'dropdown'
@@ -25,7 +24,7 @@ currentDropDown.addEventListener('click', Dropdown1.toggleButtonz
 
 ## Button Template
 
-when you create a button for dropdown it must follow this template or else the code will not work.
+When you create a button for the dropdown menu it must follow this template or else the code will not work.
 
 ```js
 button = { button: 'test1', link: 'index.html' };
@@ -40,7 +39,7 @@ buttons = [{ button: 'test1', link: 'index.html' }];
 
 ## Styles
 
-Dropdown buttons can be customized to a style that matches your navigation using the stylesheet it works exactly like normal css but for the button, however youst must use the change hover color function to change its color.
+Dropdown buttons can be customized to a style that matches your navigation using the stylesheet it works exactly like normal css but for the button, however you must use the changeHover function to change its color.
 
 ```js
 const newStyles = {
@@ -80,7 +79,7 @@ const styletemplate = Dropdown1.getTheStyleTemplate();
 
 ## Disabling Closing animation
 
-Sometimes you want to disable the dropdown from closing when you click a button. To do this you can whitelist the button which will prevent the animation from closing you can also reset the whitelist and or unwhitelist the button.
+Sometimes you want to disable the dropdown from closing when you click a button. To do this you can whitelist the button which will prevent the animation from closing you can also reset the whitelist or unwhitelist the button.
 
 ```js
 Dropdown1.whitelistTriggerBinding('test1');
@@ -90,7 +89,7 @@ Dropdown1.resetTriggerBindings();
 
 ## Adding and Deleting Buttons
 
-You will probably want to delete or add some buttons or change the order you can do theset adding and deleting button functions
+You will probably want to delete or add some buttons or change the order you can do this by adding and deleting button functions
 
 ```js
 Dropdown1.addButton(button2);

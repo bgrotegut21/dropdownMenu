@@ -10,7 +10,7 @@ this is a package that allows you to add a dropdown menu on any object that
 In order to trigger the animation you must import it and add it an
 eventlistener to it with the dropdown.triggerButton, here is an example
 
-```
+```js
 import {DropDown} from  'dropdown'
 import { DropDown } from './dropdown.js';
 
@@ -27,29 +27,22 @@ currentDropDown.addEventListener('click', Dropdown1.toggleButtonz
 
 when you create a button for dropdown it must follow this template or else the code will not work.
 
-```
-
-button = { button: 'test1', link: 'index.html' }
+```js
+button = { button: 'test1', link: 'index.html' };
 //if you want the button to correspond to a function instead of a link than replace link with event.
 
-button = { button: 'test1', event: someRandomFunction}
-
-
-
+button = { button: 'test1', event: someRandomFunction };
 
 //button must be inside an array for dropdown to work
 
-buttons = [{ button: 'test1', link: 'index.html' }]
-
-
+buttons = [{ button: 'test1', link: 'index.html' }];
 ```
 
 ## Styles
 
 Dropdown buttons can be customized to a style that matches your navigation using the stylesheet it works exactly like normal css but for the button, however youst must use the change hover color function to change its color.
 
-```
-
+```js
 const newStyles = {
   dropdown: {
     background: 'red',
@@ -89,7 +82,7 @@ const styletemplate = Dropdown1.getTheStyleTemplate();
 
 Sometimes you want to disable the dropdown from closing when you click a button. To do this you can whitelist the button which will prevent the animation from closing you can also reset the whitelist and or unwhitelist the button.
 
-```
+```js
 Dropdown1.whitelistTriggerBinding('test1');
 Dropdown1.unwhitelistTriggerBinding('test1');
 Dropdown1.resetTriggerBindings();
@@ -99,7 +92,7 @@ Dropdown1.resetTriggerBindings();
 
 You will probably want to delete or add some buttons or change the order you can do theset adding and deleting button functions
 
-```
+```js
 Dropdown1.addButton(button2);
 Dropdown1.deleteButtonByIndex(0);
 Dropdown1.addButtonByIndex(button2, 0);

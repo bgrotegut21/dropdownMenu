@@ -367,4 +367,4 @@ const DropDown = (array) => {
   };
 };
 
-export { DropDown };
+module.exports.DropDown = DropDown;

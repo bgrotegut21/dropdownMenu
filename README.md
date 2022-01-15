@@ -3,7 +3,7 @@ This is a package that allows you to add a dropdown menu on any object.
 
 #installation
 
-`npm -i dropdown --save`
+`npm -i thedropdownmenu --save`
 
 # Usage
 

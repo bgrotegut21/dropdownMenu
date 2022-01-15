@@ -1,0 +1,22 @@
+{
+  "name": "thedropdownmenu",
+  "version": "1.0.0",
+  "description": "dropdown menu",
+  "main": "dropdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bgrotegut21/dropdownMenu.git"
+  },
+  "keywords": [
+    "dropdown"
+  ],
+  "author": "bgrotegut21 <bgrotegut21@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bgrotegut21/dropdownMenu/issues"
+  },
+  "homepage": "https://github.com/bgrotegut21/dropdownMenu#readme"
+}

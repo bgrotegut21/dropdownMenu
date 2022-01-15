@@ -1,7 +1,8 @@
-#H1 What is this?
+# What is this?
+
 This is a package that allows you to add a dropdown menu on any object.
 
-#installation
+# installation
 
 `npm -i thedropdownmenu --save`
 

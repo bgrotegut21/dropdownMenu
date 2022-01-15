@@ -4,15 +4,14 @@ This is a package that allows you to add a dropdown menu on any object.
 
 # installation
 
-`npm -i thedropdownmenu --save`
+`npm i thedropdownmenu --save`
 
 # Usage
 
 In order to add a dropdown to a button you must import it than add triggerButton on to the event listener.
 
 ```js
-import {DropDown} from  'dropdown'
-import { DropDown } from './dropdown.js';
+import {DropDown} from  'thedropdownmenu'
 
 const buttons = [{ button: 'test1', link: 'index.html' }];
 
